@@ -1,0 +1,329 @@
+<!-- UK -->
+<reference name="head">
+                <block type="core/text" name="externalCss">
+        <action method="setText">
+            <text><![CDATA[<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"><link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css">]]>
+            </text>
+        </action>
+    </block>
+<action method="addLinkRel">
+    	<rel>canonical</rel>
+    	<href>https://www.missguided.co.uk</href>
+</action>
+</reference>
+<reference name="after_body_start">
+<block type="core/text" name="schema"> <action method="setText">
+  <text>
+    <![CDATA[<script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.missguided.co.uk/",
+      "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.missguided.co.uk/catalogsearch/result/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+      }
+      }
+      </script><script type=“application/ld+json”>
+{ “@context”: “http://schema.org“,
+“@type”: “Organization”,
+“name”: “Missguided”,
+“legalName” : “Missguided”,
+“url”: “https://www.missguided.co.uk”,
+“logo”: “https://www.missguided.co.uk/style-guide/missguided/images/apple-touch-icon.png”,
+“foundingDate”: “2008",
+“founders”: [
+{
+“@type”: “Person”,
+“name”: “Nitin Passi”
+}],
+“address”: {
+“@type”: “PostalAddress”,
+“streetAddress”: “75 Trafford Wharf Road”,
+“addressLocality”: “Trafford Park”,
+“addressRegion”: “GB-MAN”,
+“postalCode”: “M17 1ES”,
+“addressCountry”: “GBR”
+},
+“contactPoint”: {
+“@type”: “ContactPoint”,
+“contactType”: “customer service”,
+“email”: “customercare@missguided.com”,
+“URL”: “https://www.missguided.co.uk”
+},
+“sameAs”: [
+“https://www.facebook.com/Missguidedcouk/“,
+“https://twitter.com/missguided/“,
+“https://www.instagram.com/missguided/“,
+“https://www.snapchat.com/add/missguidedsnaps”,
+“http://missguidedpics.tumblr.com/”
+]}
+</script>]]>
+  </text>
+  </action> </block>
+</reference>
+
+<!-- EU -->
+  <reference name="head">
+  <block type="core/text" name="externalCss">
+        <action method="setText">
+            <text><![CDATA[<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"><link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css">]]>
+            </text>
+        </action>
+    </block>
+	<action method="addLinkRel">
+    	<rel>canonical</rel>
+    	<href>https://www.missguided.eu</href>
+	</action>
+	</reference>
+<reference name="after_body_start">
+<block type="core/text" name="schema"> <action method="setText">
+  <text>
+    <![CDATA[<script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.missguided.eu/",
+      "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.missguided.eu/catalogsearch/result/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+      }
+      }
+      </script>]]>
+  </text>
+  </action> </block>
+</reference>
+
+<!-- IE -->
+  <reference name="head">
+  <block type="core/text" name="externalCss">
+        <action method="setText">
+            <text><![CDATA[<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"><link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css">]]>
+            </text>
+        </action>
+    </block>
+	<action method="addLinkRel">
+    	<rel>canonical</rel>
+    	<href>https://www.missguided.com/ie/</href>
+	</action>
+	</reference>
+<reference name="after_body_start">
+<block type="core/text" name="schema"> <action method="setText">
+  <text>
+    <![CDATA[<script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.missguided.com/ie/",
+      "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.missguided.com/ie/catalogsearch/result/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+      }
+      }
+      </script>]]>
+  </text>
+  </action> </block>
+</reference>
+
+<!-- FR -->
+  <reference name="head">
+ <block type="core/text" name="externalCss">
+        <action method="setText">
+            <text><![CDATA[<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"><link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css">]]>
+            </text>
+        </action>
+    </block>
+	<action method="addLinkRel">
+    	<rel>canonical</rel>
+    	<href>https://www.missguidedfr.fr</href>
+	</action>
+	</reference>
+<reference name="after_body_start">
+<block type="core/text" name="schema"> <action method="setText">
+  <text>
+    <![CDATA[<script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.missguidedfr.fr/",
+      "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.missguidedfr.fr/catalogsearch/result/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+      }
+      }
+      </script>]]>
+  </text>
+  </action> </block>
+</reference>
+
+<!-- ES -->
+  <reference name="head">
+<block type="core/text" name="externalCss">
+        <action method="setText">
+            <text><![CDATA[<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"><link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css">]]>
+            </text>
+        </action>
+    </block>
+	<action method="addLinkRel">
+    	<rel>canonical</rel>
+    	<href>https://www.missguided.com/es/</href>
+	</action>
+	</reference>
+
+<reference name="after_body_start">
+<block type="core/text" name="schema"> <action method="setText">
+  <text>
+    <![CDATA[<script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.missguided.com/es/",
+      "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.missguided.com/es/catalogsearch/result/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+      }
+      }
+      </script>]]>
+  </text>
+  </action> </block>
+</reference>
+
+<!-- DE -->
+  <reference name="head">
+<block type="core/text" name="externalCss">
+        <action method="setText">
+            <text><![CDATA[<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"><link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css">]]>
+            </text>
+        </action>
+    </block>
+<action method="addLinkRel">
+    	<rel>canonical</rel>
+    	<href>https://www.missguided.com/de/</href>
+	</action>
+	</reference>
+
+<reference name="after_body_start">
+<block type="core/text" name="schema"> <action method="setText">
+  <text>
+    <![CDATA[<script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.missguided.com/de/",
+      "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.missguided.com/de/catalogsearch/result/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+      }
+      }
+      </script>]]>
+  </text>
+  </action> </block>
+</reference>
+
+<!-- PL -->
+  <reference name="head">
+ <block type="core/text" name="externalCss">
+        <action method="setText">
+            <text><![CDATA[<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"><link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css">]]>
+            </text>
+        </action>
+    </block>
+	<action method="addLinkRel">
+    	<rel>canonical</rel>
+    	<href>https://www.missguided.com/pl/</href>
+	</action>
+	</reference>
+
+<reference name="after_body_start">
+<block type="core/text" name="schema"> <action method="setText">
+  <text>
+    <![CDATA[<script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.missguided.com/pl/",
+      "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.missguided.com/pl/catalogsearch/result/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+      }
+      }
+      </script>]]>
+  </text>
+  </action> </block>
+</reference>
+
+<!-- US -->
+  <reference name="head">
+ <block type="core/text" name="externalCss">
+        <action method="setText">
+            <text><![CDATA[<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"><link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css">]]>
+            </text>
+        </action>
+    </block>
+	<action method="addLinkRel">
+    	<rel>canonical</rel>
+    	<href>https://www.missguidedus.com</href>
+	</action>
+	</reference>
+
+<reference name="after_body_start">
+<block type="core/text" name="schema"> <action method="setText">
+  <text>
+    <![CDATA[<script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.missguidedus.com/",
+      "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.missguidedus.com/catalogsearch/result/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+      }
+      }
+      </script>]]>
+  </text>
+  </action> </block>
+</reference>
+
+
+<!-- AU -->
+<reference name="head">
+<block type="core/text" name="externalCss">
+        <action method="setText">
+            <text><![CDATA[<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"><link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css">]]>
+            </text>
+        </action>
+    </block>
+<action method="addLinkRel">
+    	<rel>canonical</rel>
+    	<href>https://www.missguidedau.com</href>
+	</action>
+	</reference>
+
+<reference name="after_body_start">
+<block type="core/text" name="schema"> <action method="setText">
+  <text>
+    <![CDATA[<script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.missguidedau.com/",
+      "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.missguidedau.com/catalogsearch/result/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+      }
+      }
+      </script>]]>
+  </text>
+  </action> </block>
+</reference>
+
+
