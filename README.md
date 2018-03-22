@@ -45,6 +45,14 @@ $ npm start
 └── README.md
 ```
 
+### files and what they do.
+
+* _base\*.css_ both stylesheets are lifted from Magento and not maintained by us.
+* _style.scss_ These are our styles, we have created these and maintain the code but, as they are just base styles, therefore are not updated regularly. They are compliled into _css/style.css_ on save. This stylehseet is hosted on the server, therefore, any amends to this would require uploading/replacing //static.missguided.co.uk/media/upload/HOMEPAGE/lazy/style.css.
+* _index.html_ is a replica of the magento wrapper, and includes scripts/stylesheets just like the real thing.
+* _your-html.html_ is where our custom code is added, this is injected into _index.html_ on line 384.
+* _main.js_ injects _your-html.html_ into _index.html_ on load.
+
 ## Process
 
 ```bash
@@ -56,10 +64,16 @@ Amend any of the SCSS, HTML or JS files and see the browser update with your cha
 
 ## Amending styles
 
-Most styles within a homepage will be added inline atop the homepage, or even better, inline in styleblocks within the elements div.
-_See 'your-html.html line 3 and 72'_
+### Amending _style.scss_
 
-There are a few style blocks in the project, with a hierachy, so it's important to know what's what.
+Please see _Project structure/files and what they do_.
+
+To see amends live in the browser, you will need to comment out the link and un-comment the link to our local, compiled stylesheet. Please be aware any amends would need to be uploaded/replaced on the server.
+
+```html
+<link rel="stylesheet" href="css/style.css">
+<!-- <link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css"> -->
+```
 
 ```
 ├── base-2.css
@@ -81,8 +95,6 @@ These come from Slick, they are not used in the current project, but come in han
 ├── sass
 |  └── style.scss
 ```
-
-These are our styles, we have created these and maintain the code but, as they are just base styles, therefore are not updated regularly. They are hosted on the server, and inserted into the live page using a link (see index.html line 2) to aid in caching etc.
 
 If you do amend this code, we would need to replace the file on the server. Email adam.jacques@missguided.com.
 
