@@ -51,7 +51,6 @@ $ npm start
 ├── gulpfile.js
 ├── index.html
 ├── layout.xml
-├── main.css
 ├── main.js
 ├── package.json
 └── README.md
