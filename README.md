@@ -2,9 +2,19 @@
 
 Missguided homepage, boosted performance using lazySizes.
 
+## updates [22/03]
+
+```diff
++ //these elements have been redacted
+- .imgContainer
+- .title-below
+```
+
 ## Getting Started
 
 These instructions will get you a copy of the homepage up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the homepages on Magento.
+
+---
 
 ### Installing
 
@@ -20,6 +30,8 @@ $ npm install
 # start gulp & browsersync
 $ npm start
 ```
+
+---
 
 ## Project structure
 
@@ -47,11 +59,18 @@ $ npm start
 
 ### files and what they do.
 
-* _base\*.css_ both stylesheets are lifted from Magento and not maintained by us.
-* _style.scss_ These are our styles, we have created these and maintain the code but, as they are just base styles, therefore are not updated regularly. They are compliled into _css/style.css_ on save. This stylehseet is hosted on the server, therefore, any amends to this would require uploading/replacing //static.missguided.co.uk/media/upload/HOMEPAGE/lazy/style.css.
-* _index.html_ is a replica of the magento wrapper, and includes scripts/stylesheets just like the real thing.
-* _your-html.html_ is where our custom code is added, this is injected into _index.html_ on line 384.
-* _main.js_ injects _your-html.html_ into _index.html_ on load.
+* `base*.css` both stylesheets are lifted from Magento and not maintained by us.
+* `style.scss` These are our styles, we have created these and maintain the code but, as they are just base styles, therefore are not updated regularly. They are compliled into `css/style.css` on save. This stylehseet is hosted on the server, therefore, any amends to this would require uploading/replacing
+
+```
+//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/style.css
+```
+
+* `index.html` is a replica of the magento wrapper, and includes scripts & stylesheets just like the real thing.
+* `your-html.html` is where our custom code is added, this is injected into `index.html` on line 384.
+* `main.js` injects `your-html.html` into `index.html` on load.
+
+---
 
 ## Process
 
@@ -61,6 +80,8 @@ $ npm start
 ```
 
 Amend any of the SCSS, HTML or JS files and see the browser update with your changes live in browser.
+
+---
 
 ## Amending styles
 
@@ -98,11 +119,15 @@ These come from Slick, they are not used in the current project, but come in han
 
 If you do amend this code, we would need to replace the file on the server. Email adam.jacques@missguided.com.
 
+---
+
 ## Deployment
 
 Code good to go? OK, copy all the code within _your-html.html_ and paste into the 'Content' tab of the CMS page on Magento.
 
 See _layout.xml_ for necceasry code to be inserted within **Design > Layout Update XML**
+
+---
 
 ## License
 
