@@ -3,15 +3,33 @@
 <html>
 
 <head>
+	<style>
+		@media(min-width: 768px) {
+			#homeSlider,
+			.std {
+				min-height: 40vw;
+			}
+		}
+	</style>
 	<link rel="stylesheet" href="base.css">
 	<link rel="stylesheet" href="base-2.css">
 
-	<!-- <link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/style.css"> -->
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css"> -->
 
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"> -->
+
+
+
+	<!-- from live -->
+	<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
-	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="stylesheet" type="text/css" href="//static.missguided.co.uk/media/upload/HOMEPAGE/lazy/stylesheet.css">
+	<!-- from live -->
+
+
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
@@ -334,21 +352,66 @@
 <!-- End include -->
 
 <!-- Start of promos -->
+<style>
+	.promo--first {
+		background: #C6F0ED;
+		border-width: 4px 2px 4px 4px;
+		border-style: solid;
+		border-color: white;
+	}
+
+	.promo--second {
+		background: #F3D0D2;
+		border-width: 4px 2px 4px 2px;
+		border-style: solid;
+		border-color: white;
+	}
+
+	.promo--third {
+		background: #FFFFFF;
+		border-width: 4px 2px 4px 2px;
+		border-style: solid;
+		border-color: white
+	}
+
+	.promos--global {
+		background: none;
+	}
+
+	.promos--global .promo__link {
+		border: solid 1px #eee;
+	}
+
+	@media screen and (max-width:768px) {
+		.promo--first {
+			background: #C6F0ED;
+			border-width: 4px;
+		}
+		.promo--second {
+			background: #F3D0D2;
+			border-width: 4px;
+		}
+		.promo--third {
+			background: #FFFFFF;
+			border-width: 4px;
+		}
+	}
+</style>
 <div class="top-promos-wrapper">
 	<ul class="promos promos--global promos--thirds">
 		<li class="promo promo--first">
-			<a class="promo__link" href="">£1.99 uk next day delivery
-				<span class="promo__subtext">offer ends in 5 hours 33 minutes</span>
+			<a class="promo__link" href="https://www.missguided.co.uk/delivery_explained">£1 Next day delivey
+				<span class="promo__subtext">hurry ends 2pm</span>
 			</a>
 		</li>
-		<li class="promo promo--second promo--feature js-promo--is-visible">
-			<a class="promo__link" href="https://www.missguided.co.uk/new-in">New Lines droppin daily
-				<span class="promo__subtext">shop now</span>
+		<li class="promo promo--second promo--feature js-promo--is-visible" style="background-color: rgb(255, 11, 139);">
+			<a class="promo__link" href="https://www.missguided.co.uk/clothing/outlet">extra 20% off outlet
+				<span class="promo__subtext">use code : OUTLET20 - T&amp;C'S APPLY </span>
 			</a>
 		</li>
 		<li class="promo promo--third">
-			<a class="promo__link" href="https://www.missguided.co.uk/unidays">25% Student Discount
-				<span class="promo__subtext">limited time only - excludes sale</span>
+			<a class="promo__link" href="https://www.missguided.co.uk/unidays">30% student discount
+				<span class="promo__subtext">includes outlet &amp; sale - t&amp;c's apply</span>
 			</a>
 		</li>
 	</ul>
@@ -390,7 +453,7 @@
 	</div>
 	<script src="main.js"></script>
 	<!-- include me later -->
-	<script src="https://rawgit.com/vuongdothanhhuy/slick/slick-with-srcset/slick/slick.js"></script>
+	<!-- <script src="https://rawgit.com/vuongdothanhhuy/slick/slick-with-srcset/slick/slick.js"></script> -->
 	<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" /> -->
 	<!-- <script src="js/script.js"></script> -->
 	<!-- amp -->
@@ -399,9 +462,9 @@
 
 	<!-- slick   -->
 	<!-- <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script> -->
-	<!-- <script src="https://rawgit.com/vuongdothanhhuy/slick/slick-with-srcset/slick/slick.js"></script> -->
+	<script src="https://rawgit.com/vuongdothanhhuy/slick/slick-with-srcset/slick/slick.js"></script>
 	<!-- <script src="https://static.missguided.co.uk/smedia/upload/LANDING_PAGES/2017/jquery.cloudinary.js" type="text/javascript"></script> -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/lazysizes.min.js" async=""></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/lazysizes.min.js" async=""></script>
 </body>
 
 <footer class="footer-container" role="contentinfo">
