@@ -21,7 +21,7 @@ gulp.task("sass", function() {
 gulp.task("default", function() {
   browserSync.init({
     port: 7184,
-    //  https: true,
+    // https: true,
     ghostMode: false,
     server: {
       baseDir: "./"
